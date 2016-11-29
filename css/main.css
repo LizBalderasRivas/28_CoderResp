@@ -1,0 +1,143 @@
+/* Tu CSS va aqui */
+.fondo{
+	background-image: url(../img/header.jpg);
+	width: 100%;
+	/* padding: 10%; */
+	/* padding-top: 30%; */
+	padding: 0!important;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top; 
+	max-width: 100%; 
+}
+.navbar.navbar-default{
+	background-color: white;
+	opacity: .4;
+	width: 100%;
+} 
+.uno{
+	margin-left: 45%;
+}
+.bckg{
+	background-color: #FA5858;
+}
+.bckg1{
+	background-color: #000;
+}
+.text-white{
+	color: #fff;
+}
+.sobre{
+	width: 5%;
+	border:1px solid white;
+}
+.servicios{
+	width: 5%;
+	border:1px solid #FA5858;
+}
+.img{
+	margin-left: 40%;
+}
+.img2{
+	margin-left: 47%;
+}
+.margint{
+	margin-top: 10%;
+}
+.btn{
+	margin-left: 45%;
+}
+.margintt{
+	margin-top: 5%;
+}
+.marginb{
+	margin-bottom: 5%;
+}
+.pd{
+	padding: 0 !important;
+}
+.mr{
+	margin:0 !important;
+}
+.fotos{ 
+/* background-size: 100%; */ 
+	height: 220px;
+	background-repeat: no-repeat;
+}
+.bg1{
+	background-image: url(../img/1.jpg);
+	background-size: 100%;
+	 
+}
+.bg2{
+	background-image: url(../img/2.jpg);
+	background-size: 100%;
+}
+.bg3{
+	background-image: url(../img/3.jpg);
+	background-size: 100%;
+}
+.bg4{
+	background-image: url(../img/4.jpg);
+	background-size: 100%;
+}
+.bg5{
+	background-image: url(../img/5.jpg);
+	background-size: 100%;
+}
+.bg6{
+	background-image: url(../img/6.jpg);
+	background-size: 100%;
+}
+.cero{
+	margin-right: 10%;			
+}
+.super{
+	position: absolute;
+	top: 0;
+	background-color: rgba(150, 88, 88, 0.9);
+	background-size: 100%;
+	height: 100%;
+	width: 96%;
+	opacity: 0;
+	padding-top: 17%;
+	padding-bottom: 17%;
+	color: white;
+}
+.super:hover{
+	opacity: 1;
+	width: 100%;
+}
+span{
+	color: #FA5858;
+}
+html{
+	margin: 0%;
+	padding: 0%;
+}
+
+
+@media (min-width: 768px) and (max-width: 1199px) { 
+	nav{
+		display: none;
+	}	
+
+	.sobre{
+		display: none;
+	}
+	.diamante{
+		margin-left: 45%;
+	}
+	.ver{
+		margin-left: 40%;
+	}
+	.conoce{
+		margin-left: 42%;
+	}
+ }
+
+ @media (min-width: 320px) and (max-width: 383px){
+ 	.conoce{
+ 		margin-left: 31%;
+ 	}
+ }
